@@ -1,0 +1,15 @@
+//Desenvolva um algoritmo de comissão de vendas, um vendedor de carro
+        //vendeu 500 mil no mês de Maio, sabendo que a comissão dele é de 5% ao mês,
+        //qual será o valor que este vendedor receberá de comissão, calcule e imprima;
+
+        double valor, comissao, comissaoTotal;
+
+        public void print()
+        {
+            Console.WriteLine("Valor vendido:");
+            valor = double.Parse(Console.ReadLine());
+            Console.WriteLine("Porcentagem de comissão:");
+            comissao = (double.Parse(Console.ReadLine())*0.1);
+            comissaoTotal = valor * comissao;
+            Console.WriteLine($"A comissão total é: {comissaoTotal}");
+        }
