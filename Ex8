@@ -1,0 +1,21 @@
+//Desenvolver um algoritmo que leia dois valores, AeB,
+//utilizar operador aritmético de subtração e imprimir o total;
+
+Console.WriteLine("Valor A:");
+string valorA = Console.ReadLine();
+Console.WriteLine("Valor B:");
+string valorB = Console.ReadLine();
+
+double valorTotal = Convert.ToDouble(valorA) - Convert.ToDouble(valorB);
+Console.WriteLine("O valor total é:");
+Console.WriteLine(valorTotal);
+
+if (valorTotal > 0)
+{
+    Console.WriteLine("TOTAL POSITIVO!");
+}
+
+else
+{
+    Console.WriteLine("VALOR NEGATIVO!");
+}
