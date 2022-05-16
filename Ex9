@@ -1,0 +1,27 @@
+ //Desenvolver um algoritmo que leia dois valores, AeB,
+        //utilizar operador aritmético de divisão e modularização, ouseja,
+        //imprimir apenas o resto da divisão; [OPCIONAL]: Tratar divisão por 0.
+
+        int valorA, valorB, divisao, resto;
+
+        public void print()
+        {
+            Console.WriteLine("Primeiro valor:");
+            valorA =int.Parse(Console.ReadLine()); 
+            Console.WriteLine("Segundo valor:");
+            valorB =int.Parse(Console.ReadLine());
+
+            if (valorB == 0)
+            {
+                Console.WriteLine("Não pode ser dividido por 0, escreva outro número.");
+                Console.WriteLine("Segundo valor:");
+                valorB = int.Parse(Console.ReadLine());
+                resto = valorA % valorB;
+                Console.WriteLine($"O resto da divisão é: {resto}");
+            }
+            else
+            {
+                resto = valorA % valorB;
+                Console.WriteLine($"O resto da divisão é: {resto}");
+            }
+        }
