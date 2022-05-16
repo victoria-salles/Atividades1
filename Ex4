@@ -1,0 +1,11 @@
+ //Desenvolva um algoritmo para converter a temperatura em graus Celsius para Fahrenheit,
+        //a fórmula é F = (9 * C + 160) / 5;
+
+        double celsius, fahrenheit;
+        public void print()
+        {
+            Console.WriteLine("Temperatura em Celsius:");
+            celsius = double.Parse(Console.ReadLine());
+            fahrenheit = (9 * celsius + 160) / 5;
+            Console.WriteLine($"Temperatura em Fahrenheit: {fahrenheit}");
+        }
