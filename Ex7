@@ -1,0 +1,25 @@
+//Desenvolver um  algoritmo  que  leia quatro notas de  um  aluno,
+//calcular  a  média  e  imprimir. [CRITÉRIO APROVAÇÃO]: Média > 7
+
+Console.WriteLine("Primeira Nota:");
+string nota1 = Console.ReadLine();
+Console.WriteLine("Segunda Nota:");
+string nota2 = Console.ReadLine();
+Console.WriteLine("Terceira Nota:");
+string nota3 = Console.ReadLine();
+Console.WriteLine("Quarta Nota:");
+string nota4 = Console.ReadLine();
+
+double media = (Convert.ToDouble(nota1) + Convert.ToDouble(nota2) +
+                Convert.ToDouble(nota3) + Convert.ToDouble(nota4)) / 4;
+Console.WriteLine("A média é:");
+Console.WriteLine(media);
+
+if (media < 7)
+{
+    Console.WriteLine("REPROVADO!");
+}
+else
+{
+    Console.WriteLine("APROVADO!");
+}
