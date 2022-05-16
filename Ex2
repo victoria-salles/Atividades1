@@ -1,9 +1,0 @@
-//Desenvolva um algoritmo que leia a cotação do euro converta para o Real e imprima o resultado;
-
-double valorEuro = 5.32;
-Console.WriteLine("Valor em reais:");
-string valorReal = Console.ReadLine();
-double cotacao = valorEuro * Convert.ToDouble(valorReal);
-Console.WriteLine("Valor em euros:");
-Console.WriteLine(cotacao);
-Console.ReadLine();
