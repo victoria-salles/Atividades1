@@ -1,0 +1,10 @@
+//Desenvolver um  algoritmo  que  leia a  altura  de  um  homem 
+//e  calcule  o  seu  peso  ideal, utilize  a seguinte fórmula: 
+//PESO IDEAL = (72.7 * H) –58, onde H = altura.
+
+Console.WriteLine("Altura:");
+string altura = Console.ReadLine();
+double pesoIdeal = (72.7 * Convert.ToDouble(altura)) - 58;
+Console.WriteLine("O 'Peso Ideal' é:");
+Console.WriteLine(pesoIdeal);
+Console.ReadLine();
